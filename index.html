@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV — Volodymyr Hashchuk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Volodymyr Hashchuk</h1>
+    <!-- Перемикач теми -->
+    <button id="themeToggle"> 🌑 | ☀️</button>
+    <!-- Кнопка відкриття модалки -->
+    <button id="contactBtn">Contact Me</button>
+    
+    <address>
+      <p><strong>City:</strong> Lviv</p>
+      <p><strong>Email:</strong> <a href="mailto:volodymyr.hashchuk.kb.2024@lpnu.ua">volodymyr.hashchuk.kb.2024@lpnu.ua</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+380968745210">+380 (96) 874-52-10</a></p>
+    </address>
+  </header>
+
+  <main>
+    <section>
+      <h2>Objective</h2>
+      <p>To develop professional knowledge in cybersecurity and IT technologies, gain practical experience, and continuously improve technical and analytical skills.</p>
+    </section>
+
+    <section>
+      <h2>Key Skills</h2>
+      <ul>
+        <li>Strong understanding of computer and network fundamentals</li>
+        <li>Basic cybersecurity principles and threat awareness</li>
+        <li>Hands-on experience with Git version control</li>
+        <li>Knowledge of IP networking, subnetting, and VLAN concepts</li>
+        <li>Problem-solving and analytical thinking</li>
+        <li>Quick learner with strong attention to detail</li>
+        <li>Ability to work independently and in a team</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <article>
+        <p><strong>Fozzy group:</strong> 03.08.2025 — 17.09.2025</p>
+        <ul>
+          <li>Team collaboration skills</li>
+          <li>Customer communication</li>
+          <li>Fast learning and adaptability</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education (Current)</h2>
+      <ul>
+        <li><strong>University:</strong> Lviv Polytechnic National University</li>
+        <li><strong>Major:</strong> Cybersecurity</li>
+        <li><strong>Years:</strong> 2024 — 2028</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>Ukrainian — Native</li>
+        <li>English — Intermediate (technical reading)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Additional Information</h2>
+      <ul>
+        <li>Highly motivated to learn</li>
+        <li>Strong sense of responsibility</li>
+        <li>Organized and detail-oriented</li>
+      </ul>
+    </section>
+
+    <!-- Коментарі попередніх роботодавців -->
+    <section>
+      <h2>Employer Comments</h2>
+      <div id="comments"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Volodymyr Hashchuk</p>
+  </footer>
+
+  <div id="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2>Feedback</h2>
+      <form action="https://formspree.io/f/mlgpazen" method="POST">
+        <input type="text" name="name" placeholder="Name" required><br><br>
+        <input type="email" name="email" placeholder="Email" required><br><br>
+        <input type="tel" name="phone" placeholder="Phone"><br><br>
+        <textarea name="message" placeholder="Your message"></textarea><br><br>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

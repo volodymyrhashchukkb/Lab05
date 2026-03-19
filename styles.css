@@ -1,0 +1,202 @@
+/* Основні стилі */
+body { 
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #000000; 
+}
+
+main { 
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Header */
+header { 
+    background: #141268;
+    color: rgb(217, 242, 244);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 { 
+    margin: 0;
+}
+
+/* Контакти */
+address { 
+    font-style: normal;
+    margin-top: 10px;
+}
+
+address a { 
+    color: #38f84e;
+    text-decoration: none;
+}
+
+/* Секції */
+section { 
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color: inherit;
+}
+
+h2 { 
+    padding-bottom: 5px;
+    color: inherit;
+}
+
+ul { 
+    padding-left: 20px;
+}
+
+li { 
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer { 
+    text-align: center;
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    margin-top: 75px;
+}
+
+/* Кнопки */
+button { 
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#themeToggle { 
+    background: transparent;
+    color: black;
+}
+
+#contactBtn { 
+    background: #38f84e;
+    color: white;
+}
+
+/* Модалка */
+#modal { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color: inherit;
+}
+
+#modal .modal-content { 
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    color: inherit;
+}
+
+#closeModal { 
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#modal input, 
+#modal textarea { 
+    width: 100%;
+    padding: 8px;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #ccc;
+}
+
+#modal button { 
+    background: #000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Коментарі */
+.comment-block { 
+    background: #eee; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: inherit;
+}
+
+/* =========================
+   🌙 DARK MODE
+========================= */
+
+.dark { 
+    background: #000000;
+    color: white;
+}
+
+/* Header */
+.dark header {
+    background: #000000;
+    color: white;
+}
+
+/* Footer (Browser info теж тут) */
+.dark footer {
+    background: #000000;
+    color: white;
+}
+
+/* Секції */
+.dark section { 
+    background: #000000;
+    color: white;
+    box-shadow: 0 2px 10px rgba(255,255,255,0.1);
+}
+
+/* Коментарі */
+.dark .comment-block { 
+    background: #111111;
+    color: white;
+    box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+}
+
+/* Модалка */
+.dark #modal .modal-content { 
+    background: #000000;
+    color: white;
+}
+
+/* Інпути */
+.dark #modal input, 
+.dark #modal textarea { 
+    color: white;
+    background: #111111;
+    border: 1px solid #555;
+}
+
+/* Кнопки */
+.dark button { 
+    opacity: 0.9;
+}
+
+.dark #themeToggle {
+    color: white;
+}
